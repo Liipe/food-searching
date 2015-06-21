@@ -262,16 +262,18 @@ label{
 .register{
     margin: 40px auto;
     border: 3px solid #000;
+    width: 500px;
 }
 
 .regButton{
     display:inline-block;
-    margin-left: 65px;
+    margin-left: 135px;
 }
 
 .search{
     width: 400px;
     margin-left: 700px;
+    margin-top: -55px;
 }
 
 .searchbutton{
@@ -280,10 +282,11 @@ label{
 }
 
 .userInit{
-    width:600px auto;
+    width:600px;
+    margin-top: 150px;
 }
 
 .userImg{
-    width: 50px;
+    width: 150px;
     margin-top: 10px auto;
 }
