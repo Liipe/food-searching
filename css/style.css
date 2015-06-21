@@ -58,9 +58,6 @@ a {
   text-align: center;
 }
 
-.nav logo h1 {
-  
-}
 
 .nav ul {
   list-style: none;
@@ -139,7 +136,7 @@ h1.title {
 }
 
 fieldset{
-    width: 300px;
+    width: 300px auto;
     border: 2px solid #6b0d20; 
 }
 
@@ -157,7 +154,7 @@ label{
     outline: none;
 }
 
-[type=submit] {
+.initButton {
     background: white;
     border: 2px solid #62B7FF;
     width: 50px;
@@ -215,27 +212,6 @@ label{
   display:flex;
 }
 
-.footer ul li {
-  display: inline-block;
-  padding: 20px 10px;
-  margin: 0;
-  transition:All .5s ease;
-  -webkit-transition:All .5s ease;
-  -moz-transition:All .5s ease;
-  -o-transition:All .5s ease;
-  -webkit-flex:1;
-  flex:1;
-  text-align: center;
-}
-
-.footer ul li:hover {
-  background: #ab1534;
-  transition:All .5s ease;
-  -webkit-transition:All .5s ease;
-  -moz-transition:All .5s ease;
-  -o-transition:All .5s ease;
-}
-
 .footer ul li a {
   color: #fff;
 }
@@ -277,4 +253,37 @@ label{
   .container {
     margin: 60px auto;
   }
+}
+
+.contentDuv{
+    margin-left: 20px;    
+}
+
+.register{
+    margin: 40px auto;
+    border: 3px solid #000;
+}
+
+.regButton{
+    display:inline-block;
+    margin-left: 65px;
+}
+
+.search{
+    width: 400px;
+    margin-left: 700px;
+}
+
+.searchbutton{
+    width: 50px;
+    margin-left: 337px;
+}
+
+.userInit{
+    width:600px auto;
+}
+
+.userImg{
+    width: 50px;
+    margin-top: 10px auto;
 }
