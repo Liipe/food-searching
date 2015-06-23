@@ -1,10 +1,13 @@
 
+/* Retira qualquer formatação pré iniciada */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+/* Formatações padrão da página */
 body {
   margin: 0;
   padding: 0;
@@ -13,6 +16,8 @@ body {
   background: #DEB887;
   }
 
+
+/* Formatação logo e nome (seperior esquerdo) */
 h1 {
   margin: 10px 0;
   font-size: 40px;
@@ -20,31 +25,21 @@ h1 {
   font-weight: 300;
 }
 
-h2 {
-  margin: 10px 0;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 300;
-}
 
-h3 {
-  margin: 5px 0;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 300;
-}
-
+/* Formatação links */
 a {
   color: #000;
   text-decoration: none;
 }
 
+/* Formatação das classes container */
 .container {
   max-width: 1200px;
   background: #fff;
   margin: 0 auto;
 }
 
+/* Formatação das classes nav */
 .nav {
   background: #6b0d20;
   color: #fff;
@@ -52,13 +47,14 @@ a {
   display:flex;
 }
 
+/* Formatação nome (superior esquerdo) */
 .nav .logo {
   width: 150px;
   background: #eb1d47;
   text-align: center;
 }
 
-
+/* Formatação área dedicada à links */
 .nav ul {
   list-style: none;
   -webkit-flex:1;
@@ -67,6 +63,7 @@ a {
   display:flex;
 }
 
+/* Formatação dos campos onde serão adicionados os links */
 .nav ul li {
   display: inline-block;
   padding: 20px 10px;
@@ -80,6 +77,7 @@ a {
   text-align: center;
 }
 
+/* Formatação dos campos referente aos links (quando o mouse posicionar-se em cima)  */
 .nav ul li:hover {
   background: #ab1534;
   transition:All .5s ease;
@@ -88,26 +86,29 @@ a {
   -o-transition:All .5s ease;
 }
 
+/* Formatação links */
 .nav ul li a {
   color: #fff;
 }
 
+/* Formatação dos links (quando o mouse posicionar-se em cima)*/
 .nav ul li:hover a {
   border-bottom: 1px solid #eb1d47;
 }
 
+/* Formatação campo vazio(superior direito) */
 .nav .menub {
   width: 60px;
   background: #eb1d47;
 }
 
+/* Formatação logo*/
 h1.title {
   text-align: center;
   margin: 20px;
-  font-size: 80px;
-  font-family: fantasy;
 }
 
+/* Formatação e posicionamento da imagem da homePage */
 .header-img {
   background: url(http://adorocomer.com/wp-content/uploads/2012/10/restaurante-a-la-carte-restaurante-chique.jpg);
   background-size: cover;
@@ -119,33 +120,39 @@ h1.title {
   margin-bottom: 20px;
 }
 
+/* Formatação padrão sub-títulos */
 .menup{
     font-weight: bolder;
     font-size: 50px;
 }
 
+/* Formatação parágrafos da homePage */
 .phome{
     margin-top: 10px;
     font-size: 20px;
 }
 
+/* Formatação padrão para as classes content */
 .content {
   border-right: 1px solid #9f9f9f;
   padding: 10px;
   margin-right: 10px;
 }
 
+/* Formatação padrão para os fieldsets */
 fieldset{
     width: 300px auto;
     border: 2px solid #6b0d20; 
 }
 
+/* Formatação padrão para os labels */
 label{
     margin-left: 5px;
     display: block;
     margin-bottom: 10px;
 }
 
+/* Formatação padrão dos inputs texto e senha */
 [type=text],
 [type=password]{
     width: 98%;
@@ -154,6 +161,7 @@ label{
     outline: none;
 }
 
+/* Formatação do botão da homePage (Entrar) */
 .initButton {
     background: white;
     border: 2px solid #62B7FF;
@@ -162,63 +170,18 @@ label{
     float: right;
 }
 
+/* Formatação do tipo texto (quando o mouse estiver posicionado em cima)*/
 [type=text]:hover{
     background: #CCC;
 }
 
+/* Formatação rodapé (copyrighy)*/
 .footer {
   background: #6b0d20;
   color: #fff;
   margin-top: 60px;
 }
 
-.footer ul.social {
-  background: #eb1d47;
-}
-
-.footer ul.social li {
-  display: inline-block;
-  padding: 20px 10px;
-  margin: 0;
-  transition:All .5s ease;
-  -webkit-transition:All .5s ease;
-  -moz-transition:All .5s ease;
-  -o-transition:All .5s ease;
-  -webkit-flex:1;
-  flex:1;
-  text-align: center;
-}
-
-.footer ul.social li:hover {
-  background: #ab1534;
-  transition:All .5s ease;
-  -webkit-transition:All .5s ease;
-  -moz-transition:All .5s ease;
-  -o-transition:All .5s ease;
-}
-
-.footer ul.social li a {
-  color: #fff;
-}
-
-.footer ul.social li:hover a {
-  border-bottom: 1px solid #eb1d47;
-}
-
-
-.footer ul {
-  list-style: none;
-  display:-webkit-flex;
-  display:flex;
-}
-
-.footer ul li a {
-  color: #fff;
-}
-
-.footer ul li:hover a {
-  border-bottom: 1px solid #eb1d47;
-}
 
 @media screen and (min-width:800px) {
   .content-box {
@@ -255,37 +218,46 @@ label{
   }
 }
 
+
+/* Formatação conteúdo Dúvidas freq. */
 .contentDuv{
     margin-left: 20px;    
 }
 
+/* Formatação form Cadastrar */
 .register{
     margin: 40px auto;
     border: 3px solid #000;
     width: 500px;
 }
 
+/* Formatação botoões Cadastrar */
 .regButton{
     display:inline-block;
     margin-left: 135px;
 }
 
+
+/* Formatação área busca (userScren) */
 .search{
     width: 400px;
     margin-left: 700px;
     margin-top: -55px;
 }
 
+/* Formatação botão Buscar (userScreen) */
 .searchbutton{
     width: 50px;
     margin-left: 337px;
 }
 
+/* Formatação div esquerda (área usuário) */
 .userInit{
     width:600px;
     margin-top: 150px;
 }
 
+/* Formatação img usuário*/
 .userImg{
     width: 150px;
     margin-top: 10px auto;
