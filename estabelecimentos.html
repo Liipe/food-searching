@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+      <title>Food's</title>
+        
+        <link rel="stylesheet" href="css/style.css">
+    
+    <!--  <link href="http://fonts.googleapis.com/css?family=Open+Sans:600" type="text/css" rel="stylesheet" /> -->
+    <!-- <link href="css/estilo.css" type="text/css" rel="stylesheet" /> -->
+    
+     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+     <script type="text/javascript" src="js/mapa.js"></script>
+     <script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+    
+        </head> 
+    
+    <body>
+<div class="container">
+  <div class="nav">
+    <div class="logo"><h1>Food'S</h1></div>
+    <ul>
+      <li><a href="estabelecimentos.html">Home</a></li>
+      <li><a href="listaAcessos.html">Lista Acessos</a></li>
+      <li><a href="listaEstabelecimentos.html">Lista Estabelecimentos</a></li>
+      <li><a href="index.html">Sair</a></li>
+    </ul>
+    <div class="menub"></div>
+  </div>
+
+  <h1 class="title"><img src="img/logo4.png" alt=""></h1>
+
+        <div id="apresentacao">
+    
+            <form method="post" action="index.html">    
+                <fieldset>
+
+                       
+            
+                    <div class="campos">
+                        <label for="txtEndereco">Endereço:</label>
+                        <input type="text" id="txtEndereco" name="txtEndereco" />
+                        <input type="button" id="btnEndereco" name="btnEndereco" value="Mostrar no mapa" />
+                    </div>
+
+                    <div id="mapa"></div>
+                    
+                	<input type="submit" value="Enviar" name="btnEnviar" />
+                    
+                    <input type="hidden" id="txtLatitude" name="txtLatitude" />
+                    <input type="hidden" id="txtLongitude" name="txtLongitude" />
+
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+    </body>
+</html>
