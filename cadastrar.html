@@ -24,6 +24,7 @@
                     <li><a href="cadastrar.html">Cadastrar</a></li>
                     <li><a href="quemsomos.html">Quem somos</a></li>
                     <li><a href="duvidas.html">Dúvidas Frequentes</a></li>
+                    <li><a href="estabelecimentos.html">Entrar</a></li>
                 </ul>
                 
                 <div class="menub"></div>
@@ -31,7 +32,7 @@
 
             <h1 class="title"><img src="img/logo4.png" alt=""></h1>
                    
-                    <form>
+                    <form id="form" class="form">
                        
                         <fieldset class="register">
                         
@@ -39,32 +40,32 @@
            
                             <label>
                                 Nome completo:
-                                <input type="text">
+                                <input type="text" id="name" required>
                             </label>
                                                                     
                             <label>
                                 Username:
-                                <input type="text">
+                                <input type="text" id="username" required>
                             </label>
            
                             <label>
                                 Email:
-                                <input type="text">
+                                <input type="text" id="email" required>
                             </label>
            
-                            <label>
+                            <!-- <label>
                                 Senha:
-                                <input type="text">
+                                <input type="text" id="senha">
                             </label>
                                        
                             <label>
                                 Repetir Senha:
                                 <input type="text">
-                            </label>
+                            </label> -->
                                         
                             <label>
                                 Cidade:
-                                <input type="text">
+                                <input type="text" id="cidade" required>
                             </label>
                             
                             <label>
@@ -72,20 +73,23 @@
                             </label>
            
                             <label>
-                                <input type="submit" value="Entrar" class="regButton">
-                                <input type="submit" value="Cancelar" class="regButton">
+                                <input type="submit" value="Cadastrar" class="regButton">
+                                <input type="button" value="Cancelar" class="regButton">
                             </label>
             
                         </fieldset>
                     </form>
-                
-    </div>
+                    
+            </div>
 
     <div class="footer">
         © Copyright 2015 Food'S - All Rights Reserved
      </div>
 
 </div>
+
+<script src="js/CadastroDAO.js"></script>
+<script src="js/cadastroController.js"></script>
 
 </body>
 
