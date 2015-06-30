@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food's</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+  <div class="container">
+  <div class="nav">
+    <div class="logo"><h1>Food'S</h1></div>
+    <ul>
+      <li><a href="estabelecimentos.html">Pesquisar</a></li>
+      <li><a href="listaAcessos.html">Lista Acessos</a></li>
+      <li><a href="listaEstabelecimentos.html">Lista Estabelecimentos</a></li>
+      <li><a href="index.html">Sair</a></li>
+    </ul>
+    <div class="menub"></div>
+  </div>
+
+  <h1 class="title"><img src="img/logo4.png" alt=""></h1>
+
+  <div class="content-box">
+    <div class="content">
+      
+          <form id="formCad" class="formCad">
+                       
+                        <fieldset>
+                        
+                            <legend>Editar Cadastro</legend>
+           
+                            <label>
+                                Nome completo:
+                                <input type="text" id="name">
+                            </label>
+                                                                    
+                            <label>
+                                Username:
+                                <input type="text" id="username">
+                            </label>
+           
+                            <label>
+                                Email:
+                                <input type="text" id="email">
+                            </label>
+           
+                            <!-- <label>
+                                Senha:
+                                <input type="text" id="senha">
+                            </label>
+                                       
+                            <label>
+                                Repetir Senha:
+                                <input type="text">
+                            </label> -->
+                                        
+                            <label>
+                                Cidade:
+                                <input type="text" id="cidade">
+                            </label>
+                            
+                            <label>
+                                
+                            </label>
+           
+                            <label>
+                                <input type="submit" value="Salvar" class="saveButton">
+                            </label>
+            
+                        </fieldset>
+                    </form>
+                
+                        
+       <h1>Lista de acessos</h1>
+       <h3>Dados dos usuários que utitilizaram o serviço</h3>
+        <section id="guestList"></section>
+    </div>
+
+   </div>
+                                
+    
+            </div>
+            
+<div class="footer">
+    © Copyright 2015 Food'S - All Rights Reserved
+ 
+</div>
+
+        <script src="js/CadastroDAO.js"></script>
+        <script src="js/cadastroController.js"></script>
+            
+</body>
+</html>
