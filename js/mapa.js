@@ -61,8 +61,6 @@ $(document).ready(function () {
 			if (status == google.maps.GeocoderStatus.OK) {
 				if (results[0]) {  
 					$('#txtEndereco').val(results[0].formatted_address);
-					$('#txtLatitude').val(marker.getPosition().lat());
-					$('#txtLongitude').val(marker.getPosition().lng());
 				}
 			}
 		});
