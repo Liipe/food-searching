@@ -345,3 +345,8 @@ tfoot tr td{
   text-align:center;
 }
 
+.senhaPerdida {
+    font-size: 10px;
+    text-decoration: underline;
+}
+
